@@ -1,0 +1,31 @@
+.watches {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 600px;
+  margin: auto;  
+  text-align: center; 
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin-right: 10px;
+  padding: 5px;
+  flex: 1;
+}
+
+.form button {
+  padding: 5px 10px;
+}
+
+.watches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
